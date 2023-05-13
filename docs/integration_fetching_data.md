@@ -48,7 +48,7 @@ from .const import DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
 
-
+# Needs to live in a platform file, e.g. sensor.py
 async def async_setup_entry(hass, entry, async_add_entities):
     """Config entry example."""
     # assuming API object stored here by __init__.py
